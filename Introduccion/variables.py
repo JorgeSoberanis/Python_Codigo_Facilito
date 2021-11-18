@@ -4,3 +4,4 @@ nombre_completo = 'Jorge Antonio Soberanis Balam'
 
 print(titulo_curso)
 print(nombre_completo)
+print(nombre_completo)
