@@ -11,3 +11,4 @@ color = "verde" if calificacion >= 7 else "Rojo"
 print(calificacion, color) 
 #print("")
 #calificacion= 50
+#Correccion del mismo error
