@@ -1,12 +1,12 @@
 listado = []
 nombre = "cody"
 
-"""if listado:
+if listado:
     variable = listado
 else:
     variable = nombre
 
-"""
-variable =  listado or nombre
+
+#variable =  listado or nombre
 
 print(variable)
