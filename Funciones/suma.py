@@ -16,3 +16,4 @@ numero_dos = int(input("Ingresa el segundon numero entero:  "))
 
 resultado = suma(numero_dos,numero_uno)
 print(resultado)
+
