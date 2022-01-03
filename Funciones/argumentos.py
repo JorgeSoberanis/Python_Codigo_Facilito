@@ -19,5 +19,10 @@ def usuarios (**kwargs): #Se conbierte en un diccionario con doble asterisco
 usuarios (eduardo=[10,10,8], fernando= [10,9,10])
 
 
+def conbinacion (*args, **kwargs):
+    print(args)
+    print(kwargs)
+
+conbinacion(1,2,3,4,5, cody=True, curso= "Python")
 
 
