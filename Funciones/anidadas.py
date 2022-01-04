@@ -1,4 +1,4 @@
-def operacion():
+def operacion(cantidad, balance, tipo='Deposito'):
 
     def deposito (cantidad, balance):
         return cantidad + balance
@@ -6,8 +6,14 @@ def operacion():
     def retiro (cantidad, balance):
          if cantidad <= balance:
             return balance - cantidad
+
  
-    print(deposito(10,20))
-    print(retiro(50,80))
+    if tipo == "Deposito":
+        return deposito(cantidad,balance)
+    elif tipo == "retiro":
+        return retiro(cantidad, balance)
+
+resultado = operacion(10,30,'retiro')
+print(resultado)
 
 operacion()
